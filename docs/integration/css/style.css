@@ -18,7 +18,7 @@ body {
 }
 
 body.dark {
-  background-color: #1c1c1c;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -33,7 +33,7 @@ body.dark {
 }
 
 .container.dark {
-  background-color: #444;
+  background-color: #646161;
   color: #fff;
 }
 
