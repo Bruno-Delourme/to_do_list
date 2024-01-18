@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const router = require('./app/router/router.js');
+require('dotenv').config();
+const databaseUrl = process.env.DB_URL;
 app.use('/', router);
 
 // Configuration de la base de données (utilisation fictive)
